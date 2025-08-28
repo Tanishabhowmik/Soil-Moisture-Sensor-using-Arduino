@@ -33,11 +33,3 @@ This project measures soil moisture levels and displays them on an LCD. If the s
 ### Buzzer → UNO
 - + → D8  
 - - → GND  
-
-
-    lcd.setCursor(0, 1);
-    lcd.print("Soil OK :)   ");
-    digitalWrite(buzzerPin, LOW);
-    delay(1000);
-  }
-}
